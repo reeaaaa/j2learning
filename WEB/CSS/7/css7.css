@@ -1,0 +1,24 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li ul {
+    display: none;
+}
+ul li{
+    float: left;
+}
+ul li:hover ul{
+    display: block;
+    position: absolute;
+    right: -200px;
+    top: 19px;
+}
+ul li{
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    width: 200px;
+    border: 1px solid green;
+    position: relative;
+}
